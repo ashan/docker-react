@@ -10,6 +10,6 @@ it("renders without crashing", () => {
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Apps />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
